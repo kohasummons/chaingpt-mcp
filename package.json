@@ -1,0 +1,36 @@
+{
+  "name": "chaingpt-mcp",
+  "version": "0.1.0",
+  "description": "Bring ChainGPT Capabilities into your AI Agent. Web3.",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "chaingpt-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "dev:debug": "npx @modelcontextprotocol/inspector node ./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "chaingpt",
+    "mcp",
+    "ai",
+    "web3"
+  ],
+  "author": "Joshua Omobola <Omobolathejoshua@gmail.com> (https://koha.wtf)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@chaingpt/ainews": "^0.0.9",
+    "@chaingpt/generalchat": "^0.0.17",
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "dotenv": "^16.5.0",
+    "zod": "^3.24.3"
+  }
+}
