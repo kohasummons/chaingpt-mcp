@@ -1,6 +1,6 @@
 {
   "name": "chaingpt-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bring ChainGPT Capabilities into your AI Agent. Web3.",
   "main": "build/index.js",
   "type": "module",
