@@ -19,7 +19,7 @@ A Model Context Protocol (MCP) server that allows you to bring ChainGPT capabili
 
 - Get your [ChainGPT Secret Key](https://app.chaingpt.org/apidashboard)
 - You need to have a [Nodejs environment](https://nodejs.org/en/download/)(v18 or higher) to run this server
-- A Compatible MCP Client. I recommend [Claude Desktop](https://www.anthropic.com/claude/desktop)
+- A Compatible MCP Client. I recommend [Claude Desktop](https://claude.ai/download)
 
 ## Installation
 
