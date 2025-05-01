@@ -1,4 +1,5 @@
 # ChainGPT MCP
+[![smithery badge](https://smithery.ai/badge/@kohasummons/chaingpt-mcp)](https://smithery.ai/server/@kohasummons/chaingpt-mcp)
 
 A Model Context Protocol (MCP) server that allows you to bring ChainGPT capabilities into your AI Agent.
 
