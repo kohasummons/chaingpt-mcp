@@ -1,0 +1,19 @@
+# Smithery configuration file: https://smithery.ai/docs/deployments
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      chaingptSecretKey:
+        type: string
+        description: The secret key for accessing the ChainGPT API.
+  commandFunction:
+    |-
+    (config) => {
+      const env = {}
+      if (config.chaingptSecretKey) {
+        env.CHAINGPT_SECRET_KEY = config.chaingptSecretKey
+      }
+      return { command: 'node', args: ['build/index.js'], env }
+    }
