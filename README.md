@@ -4,6 +4,10 @@
 
 A Model Context Protocol (MCP) server that allows you to bring ChainGPT capabilities into your AI Agent.
 
+<a href="https://glama.ai/mcp/servers/@kohasummons/chaingpt-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@kohasummons/chaingpt-mcp/badge" alt="ChainGPT MCP server" />
+</a>
+
 ## Features
 
 - Get the latest crypto news
