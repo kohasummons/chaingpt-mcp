@@ -126,10 +126,19 @@ For the changes to take effect:
 
 ## Tools
 
-| Tool Name            | Description                                                                       | Prompt                                                   |
-| -------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| chaingpt_invoke_chat | Invoke a chat with ChainGPT AI and get a response based on the provided question. | Yesterday, I bought 0.001 ETH. How much is it worth now? |
-| chaingpt_get_news    | Get the latest crypto news                                                        | What's the latest news in the crypto world?              |
+| Tool Name                                               | Description                                                                       | Prompt                                                                      |
+| ------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| chaingpt\_invoke\_chat                                  | Invoke a chat with ChainGPT AI and get a response based on the provided question. | Yesterday, I bought 0.001 ETH. How much is it worth now?                    |
+| chaingpt\_get\_news                                     | Get the latest crypto news                                                        | What's the latest news in the crypto world?                                 |
+| chaingpt\_get\_token\_prices                            | Get the latest prices for specific tokens                                         | What is the current price of Bitcoin (BTC) and Ethereum (ETH)?              |
+| chaingpt\_get\_market\_trends                           | Get the latest crypto market trends                                               | What are the latest trends in the cryptocurrency market?                    |
+| chaingpt\_get\_token\_prices                            | Get current token prices                                                          | How much is 1 BTC worth today?                                              |
+| chaingpt\_get\_token\_prices                            | Get the price of a specific token in a different currency (e.g., ETH in USD)      | What is the price of Ethereum (ETH) in USD?                                 |
+| chaingpt\_get\_market\_trends                           | Get the current market trends (e.g., rising/falling coins)                        | What are the latest market trends in cryptocurrency?                        |
+| chaingpt\_get\_market\_trends                           | Get the performance analysis for top 10 cryptocurrencies in the last 24 hours     | How have the top 10 cryptocurrencies performed in the last 24 hours?        |
+| chaingpt\_get\_market\_trends                           | Get sentiment analysis from the latest news in crypto                             | Can you provide sentiment analysis on the latest crypto news?               |
+| [chaingpt\_invoke\_chat & chaingpt\_get\_token\_prices] | Analyze Shiba Inu (SHIB) token fundamentals, tokenomics, and risk profile         | Can you analyze SHIB for me—its tokenomics and associated investment risks? |
+
 
 ## Contributing
 
