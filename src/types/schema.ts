@@ -24,3 +24,13 @@ export const aiNewsSchema = {
     fetchAfter: z.date().optional().describe("The date after which to fetch the news. Provide a JavaScript Date object or a date string (which will be interpreted in UTC by the API). For example, fetchAfter: new Date('2024-01-01') will fetch news items published from January 1, 2024 onward. This is useful for getting news within a certain time range (e.g., only recent news)."),
   }
   
+
+  // Schema for price lookup
+  export const priceSchema = {
+    tokenIds: z.array(z.string()).describe("List of token IDs (e.g. ['bitcoin', 'ethereum'])"),
+    currency: z.string().default("usd").describe("Fiat currency to get prices in (default: 'usd')"),
+  };
+  
+  export const marketTrendSchema = {
+    currency: z.string().default("usd").describe("Currency to fetch market data in (default: 'usd')"),
+  };
